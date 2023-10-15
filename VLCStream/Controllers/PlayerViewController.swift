@@ -9,7 +9,7 @@ import UIKit
 import MobileVLCKit
 import SnapKit
 
-private let rtcpUrl = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+private let url = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
 
 final class PlayerViewController: UIViewController {
     let player = VLCMediaPlayer()
@@ -64,7 +64,7 @@ final class PlayerViewController: UIViewController {
     }
     
     private func startStream() {
-        guard let streamUrl = URL(string: rtcpUrl) else { return }
+        guard let streamUrl = URL(string: url) else { return }
         
         let media = VLCMedia(url: streamUrl)
         
