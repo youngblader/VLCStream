@@ -1,6 +1,7 @@
 # VLCStream
 
-https://github.com/youngblader/VLCStream/assets/56676493/2bdace4a-c8fa-4054-b0da-a8b49c0648c8
+
+https://github.com/youngblader/VLCStream/assets/56676493/51600d3d-37fe-41c1-8d0e-eb8abed08500
 
 ## Getting Started
 
